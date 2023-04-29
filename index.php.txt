@@ -1,0 +1,2105 @@
+
+<!DOCTYPE html>
+<html lang="en">       
+    <head>   
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Arcade games</title>
+    <meta charset="utf-8">  
+    <base href="https://onlinegame365.com"/>
+    <meta name="language" content="en">
+    <meta name="robots" content="index,follow,all"/>
+    <meta name="googlebot" content="index,follow,all"/>
+    <meta name="Cache-Control" content="max-age=31536000"/>   
+                <meta name="description" content="Play thousands online games."/>
+        <meta name="keywords" content="games,online,free,play, play games, free online games"/>
+                <meta property="og:title" content="Arcade games"/>
+        <meta property="og:description" content="Play thousands online games."/>
+        <meta property="og:type" content="website"/>
+        <meta name="twitter:title" content="Arcade games"/>
+        <meta name="twitter:description" content="Play thousands online games."/>
+    <link rel="icon" type="image/png" href="/arikaim/view/templates/arcade/images/favicon.png">    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0" />   
+   
+        <!-- library files -->
+    <script id="library_jquery" type="text/javascript" src="/arikaim/view/library/jquery/jquery-3.4.1.min.js"></script>
+    <script id="library_arikaim" type="text/javascript" src="/arikaim/view/library/arikaim/arikaim-1.2.8.min.js" arikaim_base_url=""></script>
+    <script id="library_arikaim-ui" type="text/javascript" src="/arikaim/view/library/arikaim-ui/arikaim-ui-1.3.7.min.js"></script>
+    <script id="library_adsense" type="text/javascript" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js" data-ad-client="pub-3303456545845311" async></script>
+    <script id="library_analytics" type="text/javascript" src="https://www.googletagmanager.com/gtag/js?tracking-id=" tracking-id="" async></script>
+    <script id="library_analytics" type="text/javascript" src="/arikaim/view/library/analytics/gtag-code.js?tracking-id=" tracking-id="" async></script>
+    <script id="library_fomantic" type="text/javascript" src="/arikaim/view/library/fomantic/components/state.min.js" async></script>
+    <script id="library_fomantic" type="text/javascript" src="/arikaim/view/library/fomantic/components/form.min.js" async></script>
+    <link media="all" rel="preload" href="/arikaim/view/library/fomantic/components/form.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">    
+    <link media="all" rel="preload" href="/arikaim/view/library/fomantic/components/input.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">    
+    <link media="all" rel="preload" href="/arikaim/view/library/fomantic/components/checkbox.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">    
+    <script id="library_fomantic" type="text/javascript" src="/arikaim/view/library/fomantic/components/checkbox.min.js" async></script>
+    <link media="all" rel="preload" href="/arikaim/view/library/fomantic/components/button.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">    
+    <script id="library_fomantic" type="text/javascript" src="/arikaim/view/library/fomantic/components/dropdown.min.js" async></script>
+    <link media="all" rel="preload" href="/arikaim/view/library/fomantic/components/dropdown.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">    
+    <link media="all" rel="preload" href="/arikaim/view/library/fomantic/components/flag.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">    
+    <link media="all" rel="preload" href="/arikaim/view/library/fomantic/components/toast.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">    
+    <script id="library_fomantic" type="text/javascript" src="/arikaim/view/library/fomantic/components/toast.min.js" async></script>
+    <link media="all" rel="preload" href="/arikaim/view/library/fomantic/components/loader.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">    
+    <script id="library_fomantic" type="text/javascript" src="/arikaim/view/library/fomantic/components/transition.min.js" async></script>
+    <link media="all" rel="preload" href="/arikaim/view/library/fomantic/components/transition.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">    
+    <script id="library_fomantic" type="text/javascript" src="/arikaim/view/library/fomantic/components/popup.min.js" async></script>
+    <link media="all" rel="preload" href="/arikaim/view/library/fomantic/components/popup.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">    
+    <!-- template files -->
+    <script async src="/arikaim/view/templates/arcade/components/users/users.js" type="text/javascript"></script>
+    <script async src="/arikaim/view/components/semantic/policy/cookie/dialog/dialog.js" type="text/javascript"></script>
+    <script async src="/arikaim/extensions/arcade/view/components/api/api.js" type="text/javascript"></script>
+    <script async src="/arikaim/view/components/semantic/paginator/paginator.js" type="text/javascript"></script>
+    <link rel="stylesheet" type="text/css" href="/arikaim/view/templates/arcade/css/arcade.css" media="all">      
+    <link rel="stylesheet" type="text/css" href="/arikaim/view/templates/arcade/css/tailwind.min.css" media="all">      
+    <!-- component files --> 
+    <script async  class="component-file" component-type="arikaim" component-name="arcade:games" src="/arikaim/view/templates/arcade/components/games/games.js" type="text/javascript" ></script>
+    <script async  class="component-file" component-type="" component-name="components:paginator" src="/arikaim/view/components/semantic/paginator/paginator.js" type="text/javascript" ></script>
+    <script async  class="component-file" component-type="arikaim" component-name="tailwind~paginator.simple" src="/arikaim/view/components/tailwind/paginator/simple/simple.js" type="text/javascript" ></script>
+    <script async  class="component-file" component-type="arikaim" component-name="arcade:games.search" src="/arikaim/view/templates/arcade/components/games/search/search.js" type="text/javascript" ></script>
+    <script async  class="component-file" component-type="arikaim" component-name="arcade:language" src="/arikaim/view/templates/arcade/components/language/language.js" type="text/javascript" ></script>
+    <script async  class="component-file" component-type="static" component-name="arcade:navbar" src="/arikaim/view/templates/arcade/components/navbar/navbar.js" type="text/javascript" ></script>
+    <script async  class="component-file" component-type="arikaim" component-name="arcade:sidebar" src="/arikaim/view/templates/arcade/components/sidebar/sidebar.js" type="text/javascript" ></script>
+    <script async  class="component-file" component-type="arikaim" component-name="arcade:games.list" src="/arikaim/view/templates/arcade/components/games/list/list.js" type="text/javascript" ></script>
+    <script async  class="component-file" component-type="arikaim" component-name="arcade:policy.cookie.dialog" src="/arikaim/view/templates/arcade/components/policy/cookie/dialog/dialog.js" type="text/javascript" ></script>
+    <script async  class="component-file" component-type="static" component-name="arcade:footer" src="/arikaim/view/templates/arcade/components/footer/footer.js" type="text/javascript" ></script>
+    <!-- page files -->
+    
+</head>    <body id="page">
+        <div class="flex flex-col items-stretch h-full">
+    <nav class="w-full p-1 pt-3 flex flex-row items-center h-18
+    bg-gradient-to-r from-gray-800 to-gray-900 shadow-lg" role="navigation">      
+    <btn class="cursor-pointer home-button md:hidden py-3 pl-3" type="button">                
+        <svg 
+    class="cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out text-gray-200 h-8 w-8" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+</svg>         
+    </btn>   
+    <div class="flex flex-row p-1 h-18 w-4/6 mx-auto items-center">                  
+        <a class="navbar-title block site-title text-5xl antialiased pl-2" title="Arcade" href="https://onlinegame365.com/">
+            <img alt="Arcade" src="/arikaim/view/templates/arcade//images/logo.png">
+        </a>          
+        <div class="flex-grow xs:flex-grow flex md:flex flex-row items-center pl-8 xs:hidden sm:hidden">
+            <svg 
+    class="cursor-pointer text-gray-200 hover:text-yellow-500 transition duration-1000 ease-in-out text-green-500 h-7 w-7" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+</svg>  
+            <a class="pl-2 text-yellow-500 text-2xl cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out navbar-item" href="/leaderboard">               
+                Leaderboard
+            </a>
+        </div>  
+        <div class="pt-2 pb-2 ml-8 self-end place-item-end md:hidden xs:hidden sm:hidden lg:block">
+            <div class="form inline ui" id="search_panel">
+    <div class="field flex flex-row items-center search-input" id="search_input">         
+        <input 
+            type="text" 
+            field-id="search_field"
+            placeholder="Search" 
+            id="search_field" 
+            class="search-field bg-gray-700">  
+        <btn class="p-2 search-button cursor-pointer" field-id="search_field">             
+            <svg 
+    class="cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out  h-8 w-8" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+</svg>  
+        </btn>     
+    </div>       
+</div> 
+        </div>   
+        <div class="justify-end">
+            <div class="flex md:flex items-center flex-row sm:hidden xs:hidden">  
+       
+        <a class="px-4 text-gray-400 text-xl  cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out navbar-item" href="/login">   
+            Login          
+        </a>
+        <a class="px-4 text-gray-400 text-xl  cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out navbar-item" href="/signup/player">   
+            Sign Up       
+        </a>
+                                                                                         
+</div>          
+        </div>  
+        <div class="self-center">
+            
+<div class="language-dropdown relative inline-block text-left"> 
+    <btn type="button" 
+        class="dropdown-button cursor-pointer flex justify-center self-center p-2 rounded-md" 
+        id="language-button" aria-expanded="true" aria-haspopup="true">
+        <i class="ui flag us"></i>
+        <svg 
+    class="cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out text-white h4 w-4" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="1" d="M19 9l-7 7-7-7" />
+</svg>       
+    </btn>
+    <div id="language-menu" 
+        class="hidden z-50 origin-top-right absolute right-0 w-56 h-full " 
+        role="menu" 
+        aria-orientation="vertical" 
+        aria-labelledby="options-menu">
+        <input name="" type="hidden" value="en">
+        <div class="py-1 bg-gray-800 text-gray-300 rounded-lg shadow-lg" role="none">
+                        <div data-value="en" class="language-item cursor-pointer block px-4 py-2 text-sm text-gray-400 hover:bg-gray-700 hover:text-gray-200" role="menuitem">
+                <i class="flag us"></i>
+                             
+                                    <span class="font-bold">English</span>
+                            </div>
+                        <div data-value="ja" class="language-item cursor-pointer block px-4 py-2 text-sm text-gray-400 hover:bg-gray-700 hover:text-gray-200" role="menuitem">
+                <i class="flag jp"></i>
+                             
+                                    <span class="">Japanese</span>
+                            </div>
+                
+        </div>
+    </div>
+</div>    
+        </div>                                      
+    </div>   
+   
+</nav>
+<div class="pt-2 self-center place-item-center md:block xs:block sm:block lg:hidden">
+    <div class="form inline ui" id="search_panel">
+    <div class="field flex flex-row items-center search-input" id="search_input">         
+        <input 
+            type="text" 
+            field-id="mobile_serch"
+            placeholder="Search" 
+            id="mobile_serch" 
+            class="search-field bg-gray-700">  
+        <btn class="p-2 search-button cursor-pointer" field-id="mobile_serch">             
+            <svg 
+    class="cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out  h-8 w-8" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+</svg>  
+        </btn>     
+    </div>       
+</div> 
+</div>     
+    <div class="flex flex-row items-stretch flex-grow">                
+        <sidebar  class="sidebar flex-col justify-between items-center 
+bg-gray-800 shadow-lg rounded-r border-l-0 border border-gray-900 border-solid
+mr-2 mb-2 w-44 hidden md:hidden lg:hidden xl:hidden flex-shrink-0 self-stretch place-self-stretch my-2">
+    <div class="pt-2 self-stretch place-self-stretch">
+        <div class="flex items-start flex-col pt-2">        
+            <a class="px-4 text-yellow-500 text-xl cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out navbar-item" href="/leaderboard">               
+                Leaderboard
+            </a>                                                                                      
+        </div>     
+        <div class="flex md:flex flex-col items-start pt-2 ">  
+       
+        <a class="px-4 text-gray-400 text-xl  cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out navbar-item" href="/login">   
+            Login          
+        </a>
+        <a class="px-4 text-gray-400 text-xl  cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out navbar-item" href="/signup/player">   
+            Sign Up       
+        </a>
+                                                                                         
+</div>              
+        <div class="my-4 border-0 border-t-2 border-gray-800 border-solid">
+            
+<div class="flex flex-col mt-2">
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out py-1 text-gray-400 navbar-item" 
+            href="https://onlinegame365.com/action/games">   
+                        <div class="pl-4">
+                Action
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out py-1 text-gray-400 navbar-item" 
+            href="https://onlinegame365.com/puzzle/games">   
+                        <div class="pl-4">
+                Puzzle
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out py-1 text-gray-400 navbar-item" 
+            href="https://onlinegame365.com/adventure/games">   
+                        <div class="pl-4">
+                Adventure
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out py-1 text-gray-400 navbar-item" 
+            href="https://onlinegame365.com/shooting/games">   
+                        <div class="pl-4">
+                Shooting
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out py-1 text-gray-400 navbar-item" 
+            href="https://onlinegame365.com/racing/games">   
+                        <div class="pl-4">
+                Racing
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out py-1 text-gray-400 navbar-item" 
+            href="https://onlinegame365.com/arcade/games">   
+                        <div class="pl-4">
+                Arcade
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out py-1 text-gray-400 navbar-item" 
+            href="https://onlinegame365.com/multiplayer/games">   
+                        <div class="pl-4">
+                Multiplayer
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out py-1 text-gray-400 navbar-item" 
+            href="https://onlinegame365.com/hypercasual/games">   
+                        <div class="pl-4">
+                Hypercasual
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out py-1 text-gray-400 navbar-item" 
+            href="https://onlinegame365.com/3d/games">   
+                        <div class="pl-4">
+                3D
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out py-1 text-gray-400 navbar-item" 
+            href="https://onlinegame365.com/2-player/games">   
+                        <div class="pl-4">
+                2 Player
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out py-1 text-gray-400 navbar-item" 
+            href="https://onlinegame365.com/girls/games">   
+                        <div class="pl-4">
+                Girls
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out py-1 text-gray-400 navbar-item" 
+            href="https://onlinegame365.com/sports/games">   
+                        <div class="pl-4">
+                Sports
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out py-1 text-gray-400 navbar-item" 
+            href="https://onlinegame365.com/boys/games">   
+                        <div class="pl-4">
+                Boys
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out py-1 text-gray-400 navbar-item" 
+            href="https://onlinegame365.com/.io/games">   
+                        <div class="pl-4">
+                .IO
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out py-1 text-gray-400 navbar-item" 
+            href="https://onlinegame365.com/clicker/games">   
+                        <div class="pl-4">
+                Clicker
+            </div>
+        </a>                                                          
+        
+</div>        
+        </div> 
+    </div>   
+</sidebar>   
+        <div class="flex flex-row items-stretch flex-grow" >
+            <div class="py-2 px-2 flex-shrink-0 w-1/6 xs:hidden lg:block" >   
+                <div class="py-2 flex flex-col items-stretch bg-gray-900 shadow-xl rounded-lg px-2 " >
+    <div class="panel-title text-lg font-thin text-yellow-500 bg-gray-800 rounded px-4 py-2 shadow-xl">
+        Categories
+    </div>
+        <div class="p-2 flex-grow">
+    <div class="flex flex-col ">
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out p-1 text-gray-300" 
+            href="https://onlinegame365.com/action/games">   
+                                                <svg 
+    class="cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out text-gray-500 h-10 w-10" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="1" 
+        d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>  
+                  
+                        <div class="pl-4">
+                Action
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out p-1 text-gray-300" 
+            href="https://onlinegame365.com/puzzle/games">   
+                                                <svg 
+    class="cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out text-gray-500 h-10 w-10" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="1" 
+        d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>  
+                  
+                        <div class="pl-4">
+                Puzzle
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out p-1 text-gray-300" 
+            href="https://onlinegame365.com/adventure/games">   
+                                                <svg 
+    class="cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out text-gray-500 h-10 w-10" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="1" 
+        d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>  
+                  
+                        <div class="pl-4">
+                Adventure
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out p-1 text-gray-300" 
+            href="https://onlinegame365.com/shooting/games">   
+                                                <svg 
+    class="cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out text-gray-500 h-10 w-10" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="1" 
+        d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>  
+                  
+                        <div class="pl-4">
+                Shooting
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out p-1 text-gray-300" 
+            href="https://onlinegame365.com/racing/games">   
+                                                <svg 
+    class="cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out text-gray-500 h-10 w-10" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="1" 
+        d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>  
+                  
+                        <div class="pl-4">
+                Racing
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out p-1 text-gray-300" 
+            href="https://onlinegame365.com/arcade/games">   
+                                                <svg 
+    class="cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out text-gray-500 h-10 w-10" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="1" 
+        d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>  
+                  
+                        <div class="pl-4">
+                Arcade
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out p-1 text-gray-300" 
+            href="https://onlinegame365.com/multiplayer/games">   
+                                                <svg 
+    class="cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out text-gray-500 h-10 w-10" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="1" 
+        d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>  
+                  
+                        <div class="pl-4">
+                Multiplayer
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out p-1 text-gray-300" 
+            href="https://onlinegame365.com/hypercasual/games">   
+                                                <svg 
+    class="cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out text-gray-500 h-10 w-10" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="1" 
+        d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>  
+                  
+                        <div class="pl-4">
+                Hypercasual
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out p-1 text-gray-300" 
+            href="https://onlinegame365.com/3d/games">   
+                                                <svg 
+    class="cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out text-gray-500 h-10 w-10" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="1" 
+        d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>  
+                  
+                        <div class="pl-4">
+                3D
+            </div>
+        </a>                                                          
+           
+        <a 
+            class="flex flex-row items-center cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out p-1 text-gray-300" 
+            href="https://onlinegame365.com/2-player/games">   
+                                                <svg 
+    class="cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out text-gray-500 h-10 w-10" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="1" 
+        d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z" />
+</svg>  
+                  
+                        <div class="pl-4">
+                2 Player
+            </div>
+        </a>                                                          
+        
+</div>
+    </div>
+</div>        
+                            <div class="py-2 flex flex-col items-stretch bg-gray-900 shadow-xl rounded-lg px-2 mt-4" >
+    <div class="panel-title text-lg font-thin text-yellow-500 bg-gray-800 rounded px-4 py-2 shadow-xl">
+        Featured Games
+    </div>
+        <div class="p-2 flex-grow">
+    <div class="tailwind-grid grid-cols-5 md:grid-cols-2 xl:grid-cols-4 sm:grid-cols-2 xs:grid-cols-2 gap-2">
+            </div>
+    </div>
+</div>             
+                <div class="py-2 flex flex-col items-stretch bg-gray-900 shadow-xl rounded-lg px-2 mt-4" >
+    <div class="panel-title text-lg font-thin text-yellow-500 bg-gray-800 rounded px-4 py-2 shadow-xl">
+        Ads
+    </div>
+        <div class="p-2 flex-grow">
+    
+    </div>
+</div>                
+                        <div class="py-2 flex flex-col items-stretch bg-gray-900 shadow-xl rounded-lg px-2 mt-4" >
+    <div class="panel-title text-lg font-thin text-yellow-500 bg-gray-800 rounded px-4 py-2 shadow-xl">
+        New Games
+    </div>
+        <div class="p-2 flex-grow">
+    <div class="tailwind-grid grid-cols-5 md:grid-cols-2 xl:grid-cols-4 sm:grid-cols-2 xs:grid-cols-2 gap-2">
+                   
+                                                                <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="Om Nom Run">     
+                <a class="" href="/game/om-nom-run">                                         
+                    <img class="w-full h-full game-image rounded" src="https://img.cdn.famobi.com/portal/html5games/images/tmp/OmNomRunTeaser.jpg" alt="Om Nom Run">                  
+                </a>                
+            </div>
+                   
+                                                                <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="Crowd Run 3D">     
+                <a class="" href="/game/crowd-run-3d">                                         
+                    <img class="w-full h-full game-image rounded" src="https://img.cdn.famobi.com/portal/html5games/images/tmp/_CrowdRun3dTeaser.jpg" alt="Crowd Run 3D">                  
+                </a>                
+            </div>
+                   
+                                                                <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="Cubito">     
+                <a class="" href="/game/cubito">                                         
+                    <img class="w-full h-full game-image rounded" src="https://img.cdn.famobi.com/portal/html5games/images/tmp/CubitoTeaser.jpg" alt="Cubito">                  
+                </a>                
+            </div>
+                   
+                                                                <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="Stair Race 3D">     
+                <a class="" href="/game/stair-race-3d">                                         
+                    <img class="w-full h-full game-image rounded" src="https://img.cdn.famobi.com/portal/html5games/images/tmp/StairRace3dTeaser.jpg" alt="Stair Race 3D">                  
+                </a>                
+            </div>
+                   
+                                                                <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="Frankenstein Go">     
+                <a class="" href="/game/frankenstein-go">                                         
+                    <img class="w-full h-full game-image rounded" src="https://img.cdn.famobi.com/portal/html5games/images/tmp/FrankensteinGoTeaser.jpg" alt="Frankenstein Go">                  
+                </a>                
+            </div>
+                   
+                                                                <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="Bubble Tower 3D">     
+                <a class="" href="/game/bubble-tower-3d">                                         
+                    <img class="w-full h-full game-image rounded" src="https://img.cdn.famobi.com/portal/html5games/images/tmp/BubbleTower3dTeaser.jpg" alt="Bubble Tower 3D">                  
+                </a>                
+            </div>
+                   
+                                                                <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="Hoop Royale">     
+                <a class="" href="/game/hoop-royale">                                         
+                    <img class="w-full h-full game-image rounded" src="https://img.cdn.famobi.com/portal/html5games/images/tmp/HoopRoyaleTeaser.jpg" alt="Hoop Royale">                  
+                </a>                
+            </div>
+                   
+                                                                <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="Stack Smash">     
+                <a class="" href="/game/stack-smash">                                         
+                    <img class="w-full h-full game-image rounded" src="https://img.cdn.famobi.com/portal/html5games/images/tmp/StackSmashTeaser.jpg" alt="Stack Smash">                  
+                </a>                
+            </div>
+                   
+                                                                <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="Moto X3M">     
+                <a class="" href="/game/moto-x3m">                                         
+                    <img class="w-full h-full game-image rounded" src="https://img.cdn.famobi.com/portal/html5games/images/tmp/MotoX3mTeaser.jpg" alt="Moto X3M">                  
+                </a>                
+            </div>
+                   
+                                                                <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="Merge Jewels">     
+                <a class="" href="/game/merge-jewels">                                         
+                    <img class="w-full h-full game-image rounded" src="https://img.cdn.famobi.com/portal/html5games/images/tmp/MergeJewelsTeaser.jpg" alt="Merge Jewels">                  
+                </a>                
+            </div>
+            </div>
+    </div>
+</div>
+                  
+
+<div class="align-top bg-gray-900 bg-gradient-to-r from-gray-900 shadow-xl rounded-lg p-2 mt-4">
+    <div class="panel-title text-lg text-white font-thin tracking-widest bg-gradient-to-r from-red-500 via-red-600 to-red-300 p-2 rounded pl-4 shadow-xl">       
+        Premium Games
+    </div>  
+    <div class="p-2 tailwind-grid grid-cols-5 md:grid-cols-2 xl:grid-cols-4 sm:grid-cols-2 xs:grid-cols-2 gap-2">
+            </div>
+</div>
+            </div>  
+            <div class="my-2 w-full p-2 bg-gray-900 shadow-xl rounded-lg" id="page_content">                              
+                                <div class="pl-4 bg-gray-800 shadow-xl rounded-lg p-2 mb-4">
+                    <h1 class="page-title text-lg font-thin tracking-widest text-yellow-500">Games</h1>
+                </div>
+                                <div class="h-full">
+        <div class="tailwind-grid grid-flow-row justify-center justify-items-center grid-cols-2 xl:row-gap-6 row-gap-2 gap-2 xl:gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-6 2xl:grid-cols-8" id="games_list">                 
+                             
+         
+              
+
+
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/ninja-dogs-2" class="block">                                         
+        <img alt="Ninja Dogs 2" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/1d3686ed07bc437ca73f1212a0dab1b7-512x512.jpeg" title="Ninja Dogs 2">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Ninja Dogs 2
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/hover-shift" class="block">                                         
+        <img alt="Hover Shift" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/bf3ff9ae07ca4b99bd9f1e51c0f0a84e-1280x550.jpeg" title="Hover Shift">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Hover Shift
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/wonderful-high-heels-3d" class="block">                                         
+        <img alt="Wonderful High Heels 3D" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/2e1b78022f93454793c1980302bd35c6-512x384.jpeg" title="Wonderful High Heels 3D">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Wonderful High Heels 3D
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/demon-raid-2" class="block">                                         
+        <img alt="Demon Raid 2" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/411da1cb37d647bf81dc7c52bc74866e-512x512.jpeg" title="Demon Raid 2">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Demon Raid 2
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/solitaire-farm:-seasons" class="block">                                         
+        <img alt="Solitaire Farm: Seasons" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/9dc3c72959c648a98fda1b10eb6e5ae7-512x384.jpeg" title="Solitaire Farm: Seasons">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Solitaire Farm: Seasons
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/bubble-popper" class="block">                                         
+        <img alt="Bubble Popper" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/76b438e28664419ab4ee9a03912d4b83-512x384.jpeg" title="Bubble Popper">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Bubble Popper
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/crazy-runner-in-city" class="block">                                         
+        <img alt="Crazy Runner in City" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/9d23aa8eaa42440aaaccfeafc9f58ced-512x384.jpeg" title="Crazy Runner in City">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Crazy Runner in City
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/join-&-strike" class="block">                                         
+        <img alt="Join & Strike" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/55f7fa18eeb043c691f127fbab19066c-512x512.jpeg" title="Join & Strike">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Join & Strike
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/bird-surfing" class="block">                                         
+        <img alt="Bird Surfing" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/eeec1d1593ca4e2a970cd74444681a38-512x384.jpeg" title="Bird Surfing">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Bird Surfing
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/basket-puzzle!" class="block">                                         
+        <img alt="Basket Puzzle!" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/01a28589cb4c4b949ea08c8de26a8ee7-512x340.jpeg" title="Basket Puzzle!">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Basket Puzzle!
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/sieger-2" class="block">                                         
+        <img alt="Sieger 2" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/89ff4ff231d049129adeb8a999b920be-512x384.jpeg" title="Sieger 2">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Sieger 2
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/escape-from-nightmare" class="block">                                         
+        <img alt="Escape From Nightmare" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/c878aa34511f4db1be48e04c370ff764-512x384.jpeg" title="Escape From Nightmare">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Escape From Nightmare
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/keep-jump-to-sky" class="block">                                         
+        <img alt="Keep Jump to Sky" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/67e9e9a791ab46f29196adeee706679d-512x384.jpeg" title="Keep Jump to Sky">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Keep Jump to Sky
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/oil-tycoon-2" class="block">                                         
+        <img alt="Oil Tycoon 2" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/4978c62a157e4cac8366abf34feec367-512x384.jpeg" title="Oil Tycoon 2">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Oil Tycoon 2
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/mini-jumps" class="block">                                         
+        <img alt="Mini Jumps" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/054570ec022c4ad6bd035c9f52fd90bf-512x384.jpeg" title="Mini Jumps">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Mini Jumps
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/sniper-champion-3d" class="block">                                         
+        <img alt="Sniper Champion 3D" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/8f5fe323de7a422b8dc2fc4ed2c06827-512x512.jpeg" title="Sniper Champion 3D">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Sniper Champion 3D
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/stick-figure-badminton-3" class="block">                                         
+        <img alt="Stick Figure Badminton 3" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/271d6798883f4f20b758bbe069a406a8-512x384.jpeg" title="Stick Figure Badminton 3">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Stick Figure Badminton 3
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/stick-figure-badminton-2" class="block">                                         
+        <img alt="Stick Figure Badminton 2" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/40d2c16a0ef14a5287f40be49f595191-512x384.jpeg" title="Stick Figure Badminton 2">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Stick Figure Badminton 2
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/color-fill" class="block">                                         
+        <img alt="Color Fill" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/58c957e6c3034bcdabd0170103491ab2-512x384.jpeg" title="Color Fill">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Color Fill
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/mouth-shift-3d" class="block">                                         
+        <img alt="Mouth Shift 3D" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/eef62c161ee348c1840a56899632d734-512x384.jpeg" title="Mouth Shift 3D">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Mouth Shift 3D
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/squid-game-2" class="block">                                         
+        <img alt="Squid Game 2" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/a09c7214ebda42c9ba47434cc3207d53-512x384.jpeg" title="Squid Game 2">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Squid Game 2
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/bridge-builder" class="block">                                         
+        <img alt="Bridge Builder" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/0964cef0d88c4be18357cb87ab877cd1-512x384.jpeg" title="Bridge Builder">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Bridge Builder
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/boxie-space-jump" class="block">                                         
+        <img alt="Boxie Space Jump" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/d973dfa9873c4aa787a2033cfc9f6ab7-512x384.jpeg" title="Boxie Space Jump">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Boxie Space Jump
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/boxie-fly-up" class="block">                                         
+        <img alt="Boxie Fly Up" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/b3b4e4f5c1d14596afdada9c1962b369-512x384.jpeg" title="Boxie Fly Up">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Boxie Fly Up
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/switch-color" class="block">                                         
+        <img alt="Switch Color" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/f86f1e5e3b9241649465b37f2e50d896-512x384.jpeg" title="Switch Color">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Switch Color
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/sieger-rebuilt-destroy" class="block">                                         
+        <img alt="Sieger Rebuilt Destroy" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/ce5bc4ca5e55415486d20e42b356db3d-512x384.jpeg" title="Sieger Rebuilt Destroy">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Sieger Rebuilt Destroy
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/super-slope-game" class="block">                                         
+        <img alt="Super Slope Game" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/8f04290afb7a43d88eed607b597847d1-512x384.jpeg" title="Super Slope Game">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Super Slope Game
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/awesome-conquest" class="block">                                         
+        <img alt="Awesome Conquest" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/be58910c8f834e2fb9e6a9a40a49469c-512x512.jpeg" title="Awesome Conquest">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Awesome Conquest
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/fly-squirrel-fly-2" class="block">                                         
+        <img alt="Fly Squirrel Fly 2" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/75a42b259e68440ca5a9052521c0e5e3-512x512.jpeg" title="Fly Squirrel Fly 2">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Fly Squirrel Fly 2
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/home-design-miss-robins-home-makeover" class="block">                                         
+        <img alt="Home Design Miss Robins home Makeover" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/01931dc824f845a58e107a42bad3ca00-512x384.jpeg" title="Home Design Miss Robins home Makeover">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Home Design Miss Robins home Makeover
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/squid-challenge-glass-bridge" class="block">                                         
+        <img alt="Squid Challenge Glass Bridge" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/50c0a2e77342437a915faa5149f9baa3-512x384.jpeg" title="Squid Challenge Glass Bridge">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Squid Challenge Glass Bridge
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/ball-merge-2048" class="block">                                         
+        <img alt="Ball Merge 2048" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/cab295de296b4903b0eced7b7bf049a4-512x384.jpeg" title="Ball Merge 2048">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Ball Merge 2048
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/pixel-survive-western" class="block">                                         
+        <img alt="Pixel Survive Western" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/7ce94bffa66345269a2c06ca1799ee3c-512x384.jpeg" title="Pixel Survive Western">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Pixel Survive Western
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/run-destiny-choice" class="block">                                         
+        <img alt="Run Destiny Choice" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/26254014df204352add3655eced82cb6-512x512.jpeg" title="Run Destiny Choice">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Run Destiny Choice
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/stickman-epic-battle" class="block">                                         
+        <img alt="Stickman Epic Battle" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/7a00d69409ce40d0990eb4512f9030e3-512x384.jpeg" title="Stickman Epic Battle">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Stickman Epic Battle
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/amazing-jewel" class="block">                                         
+        <img alt="Amazing Jewel" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/b8660b2fb0174363ab485763f7fa6aa3-512x340.jpeg" title="Amazing Jewel">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Amazing Jewel
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/clone-ball-rush" class="block">                                         
+        <img alt="Clone Ball Rush" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/e257740f73b643948660d4847f64c539-512x384.jpeg" title="Clone Ball Rush">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Clone Ball Rush
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/hunter-assassin-2" class="block">                                         
+        <img alt="Hunter Assassin 2" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/addf68db61344e20b8a3f87bf54beedc-512x384.jpeg" title="Hunter Assassin 2">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Hunter Assassin 2
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/juicy-run" class="block">                                         
+        <img alt="Juicy Run" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/56a421dfbf76416fbc83465c86089ab9-512x384.jpeg" title="Juicy Run">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Juicy Run
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/flex-run-3d" class="block">                                         
+        <img alt="Flex Run 3D" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/347142218a9e49a88abcfc43b7eac9e1-512x384.jpeg" title="Flex Run 3D">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Flex Run 3D
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/helix-stack-ball" class="block">                                         
+        <img alt="Helix Stack Ball" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/10df5a20ceaa473d825899ab62f6692d-512x384.jpeg" title="Helix Stack Ball">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Helix Stack Ball
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/throw-best" class="block">                                         
+        <img alt="Throw Best" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/ce3221df5d304f67aa824ae4f12b7625-512x384.jpeg" title="Throw Best">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Throw Best
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/apple-worm" class="block">                                         
+        <img alt="Apple Worm" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/f3bdc4a7675f4dfda0bd1474f7853dab-512x384.jpeg" title="Apple Worm">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Apple Worm
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/run-of-life-3d" class="block">                                         
+        <img alt="Run Of Life 3D" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/4db4f8d571aa45e397a64c728912def7-512x340.jpeg" title="Run Of Life 3D">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Run Of Life 3D
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/join-and-clash-battle" class="block">                                         
+        <img alt="Join and Clash Battle" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/263b03937c7f4961ba4ca12c7715ff38-512x512.jpeg" title="Join and Clash Battle">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Join and Clash Battle
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/super-brothers" class="block">                                         
+        <img alt="Super Brothers" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/0262552fdefd465d9555fa6cda6dfd84-512x384.jpeg" title="Super Brothers">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Super Brothers
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/2048-x2-merge-blocks" class="block">                                         
+        <img alt="2048 X2 Merge Blocks" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/eed4bf8d6226480e987cc2b922d5e1c9-512x340.jpeg" title="2048 X2 Merge Blocks">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                2048 X2 Merge Blocks
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/body-race" class="block">                                         
+        <img alt="Body Race" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/cc4dc9fdf2494c2dab15ff17678d9602-512x512.jpeg" title="Body Race">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Body Race
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/ski-king-2022" class="block">                                         
+        <img alt="Ski King 2022" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/173e41a4dbe94130a937bc382f4aacd0-512x340.jpeg" title="Ski King 2022">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Ski King 2022
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/pop-it-roller-splat" class="block">                                         
+        <img alt="Pop It Roller Splat" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/9e9901e0d5c2491c84ae4bfe206d769b-512x384.jpeg" title="Pop It Roller Splat">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Pop It Roller Splat
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/ball-hop" class="block">                                         
+        <img alt="Ball Hop" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/b8bcef5802104c0d8743125bc882ddc8-512x384.jpeg" title="Ball Hop">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Ball Hop
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/helix-fruit-jump" class="block">                                         
+        <img alt="Helix Fruit Jump" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/3c1623569f6d4291958d9d941dd931fd-512x384.jpeg" title="Helix Fruit Jump">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Helix Fruit Jump
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/rope-puzzle" class="block">                                         
+        <img alt="Rope Puzzle" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/ff707707432b492698d1b1bed16747db-512x384.jpeg" title="Rope Puzzle">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Rope Puzzle
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/epic-defense-clash" class="block">                                         
+        <img alt="Epic Defense Clash" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/e4d93a8ebca346ceb758986a6aa42425-512x340.jpeg" title="Epic Defense Clash">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Epic Defense Clash
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/balloon-run" class="block">                                         
+        <img alt="Balloon Run" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/89543fb05ac542cd9fa483a31d3ac8a4-512x384.jpeg" title="Balloon Run">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Balloon Run
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/stick-war:-new-age" class="block">                                         
+        <img alt="Stick War: New Age" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/562cce5513044dfb9de268df27c0ed46-512x384.jpeg" title="Stick War: New Age">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Stick War: New Age
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/roll-ball" class="block">                                         
+        <img alt="Roll Ball" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/42a1b69d66b645f4a4c3617b4208b67a-512x384.jpeg" title="Roll Ball">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Roll Ball
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/cricket-champions-cup" class="block">                                         
+        <img alt="Cricket Champions Cup" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/9e1848e68b714c729cd47f294df32d0c-512x384.jpeg" title="Cricket Champions Cup">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Cricket Champions Cup
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/shape-switch" class="block">                                         
+        <img alt="Shape Switch" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/75e28bdcecb04e5f9f2a256cc20dc4b0-512x384.jpeg" title="Shape Switch">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Shape Switch
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/rotating-catchers" class="block">                                         
+        <img alt="Rotating Catchers" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/6bba5bf073624d959f40010835811e26-512x384.jpeg" title="Rotating Catchers">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Rotating Catchers
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/shape-race" class="block">                                         
+        <img alt="Shape Race" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/2c51600ea86747549cf175ed3e75594a-512x384.jpeg" title="Shape Race">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Shape Race
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/roll-the-block" class="block">                                         
+        <img alt="Roll The Block" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/4e86065caf3f41a2a71918d5e4ae88d0-512x512.jpeg" title="Roll The Block">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Roll The Block
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/blocky-branches" class="block">                                         
+        <img alt="Blocky Branches" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/fd750fce7d4f4be98aa888870e9978bd-512x384.jpeg" title="Blocky Branches">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Blocky Branches
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/ball-rolling-path" class="block">                                         
+        <img alt="Ball Rolling Path" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/8364b930ad57486b91694395020e14b2-512x384.jpeg" title="Ball Rolling Path">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Ball Rolling Path
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/shape-fit" class="block">                                         
+        <img alt="Shape Fit" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/443a6c09afd442f88b02d365f2a7fa39-512x384.jpeg" title="Shape Fit">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Shape Fit
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/follow-finger" class="block">                                         
+        <img alt="Follow finger" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/1da07e80ce3842eb852949de49744845-512x384.jpeg" title="Follow finger">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Follow finger
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/colorful-shape-tunnel" class="block">                                         
+        <img alt="Colorful Shape Tunnel" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/3c3837a828934f54a790794e044af6f1-512x384.jpeg" title="Colorful Shape Tunnel">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Colorful Shape Tunnel
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/conquer-the-city" class="block">                                         
+        <img alt="Conquer The City" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/b8a351250d6f4171b0964981ab924339-512x384.jpeg" title="Conquer The City">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Conquer The City
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/match-fun-3d" class="block">                                         
+        <img alt="Match Fun 3D" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/c924b1d568ab40529e71d08b866c78fc-512x512.jpeg" title="Match Fun 3D">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Match Fun 3D
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/throw-ball" class="block">                                         
+        <img alt="Throw Ball" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/e8df95b3c5324bdbbcd9d87efa38c2cb-512x512.jpeg" title="Throw Ball">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Throw Ball
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/balls-lines-colors" class="block">                                         
+        <img alt="Balls Lines Colors" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/9d6442ef91b0467784d2c286355c4141-512x384.jpeg" title="Balls Lines Colors">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Balls Lines Colors
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/extreme-jelly-shift-3d" class="block">                                         
+        <img alt="Extreme Jelly Shift 3D" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/4b73d9be7ccd4108a291dfb8883268ef-512x384.jpeg" title="Extreme Jelly Shift 3D">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Extreme Jelly Shift 3D
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/balls-avoid" class="block">                                         
+        <img alt="Balls Avoid" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/a0e4b741a5dc44fcb716e43d9416ac90-512x384.jpeg" title="Balls Avoid">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Balls Avoid
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/flex-run" class="block">                                         
+        <img alt="Flex Run" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/c319934597db488983f2336763dc3afc-512x384.jpeg" title="Flex Run">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Flex Run
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/gaps" class="block">                                         
+        <img alt="GAPS" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/cbb3a998b26b4d9ab6a2f80042ac6f36-512x384.jpeg" title="GAPS">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                GAPS
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/scifi-flight-simulator" class="block">                                         
+        <img alt="SciFi Flight Simulator" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/b9db74cdbbc54157bca4547e1a9e0455-512x384.jpeg" title="SciFi Flight Simulator">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                SciFi Flight Simulator
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/knife-jump" class="block">                                         
+        <img alt="Knife Jump" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/2e17eaa71f3a4cc1a58d7a17813465f8-512x384.jpeg" title="Knife Jump">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Knife Jump
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/spidey-man-rescue-online" class="block">                                         
+        <img alt="Spidey Man Rescue Online" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/c17621e87a7f42f8949f77cc034912f5-512x384.jpeg" title="Spidey Man Rescue Online">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Spidey Man Rescue Online
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/zombie-last-castle-2" class="block">                                         
+        <img alt="Zombie Last Castle 2" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/950a8072695040ec863c038529862fa0-512x384.jpeg" title="Zombie Last Castle 2">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Zombie Last Castle 2
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/robber-vs-police:-fighting" class="block">                                         
+        <img alt="Robber Vs Police: Fighting" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/c2b61fe4223e4ea9ac2609d2a53bb026-512x384.jpeg" title="Robber Vs Police: Fighting">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Robber Vs Police: Fighting
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/train-surfers" class="block">                                         
+        <img alt="Train Surfers" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/6920e96cea7a4aea956c7410de649a98-512x384.jpeg" title="Train Surfers">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Train Surfers
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/minigolf-tour" class="block">                                         
+        <img alt="Minigolf Tour" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/7ffec8d4951a493ca14c949a80512999-512x384.jpeg" title="Minigolf Tour">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Minigolf Tour
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/pop-it-knockout-royale" class="block">                                         
+        <img alt="Pop it Knockout Royale" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/eb026326c0b845878187f0f14e6bcb1b-512x384.jpeg" title="Pop it Knockout Royale">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Pop it Knockout Royale
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/hula-hoops-rush" class="block">                                         
+        <img alt="Hula Hoops Rush" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/87bae833f184421687b221d6ede63797-512x384.jpeg" title="Hula Hoops Rush">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Hula Hoops Rush
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/dalgona-candy" class="block">                                         
+        <img alt="Dalgona Candy" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/d05900007acd40d793163873f1c4c6ba-512x384.jpeg" title="Dalgona Candy">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Dalgona Candy
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/pinatamasters-2" class="block">                                         
+        <img alt="Pinatamasters 2" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/89be03197b9c4b418c6a75fcc1e9141c-512x384.jpeg" title="Pinatamasters 2">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Pinatamasters 2
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/riddles-of-squid" class="block">                                         
+        <img alt="Riddles of Squid" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/adc8eabd437c45f8b06726c2d6e53849-512x384.jpeg" title="Riddles of Squid">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Riddles of Squid
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/squidly-game-tug-of-war" class="block">                                         
+        <img alt="Squidly Game Tug Of War" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/864cbdbabb1648238e97776d0c91735c-512x384.jpeg" title="Squidly Game Tug Of War">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Squidly Game Tug Of War
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/stick-fighter-3d" class="block">                                         
+        <img alt="Stick Fighter 3D" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/7c4103dbf8ee4ded981b15bbcdb22e8f-512x384.jpeg" title="Stick Fighter 3D">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Stick Fighter 3D
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/crazy-falling-ball" class="block">                                         
+        <img alt="Crazy Falling Ball" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/f289ba76c3b64a34867aaad7d4344a94-1280x720.jpeg" title="Crazy Falling Ball">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Crazy Falling Ball
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/tiny-clash" class="block">                                         
+        <img alt="Tiny Clash" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/ea296d6b449a42c59953b611512107ab-512x384.jpeg" title="Tiny Clash">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Tiny Clash
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/human-vehicle" class="block">                                         
+        <img alt="Human Vehicle" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/13555ac3f3bf409e8eb0ddf849de7d8b-512x384.jpeg" title="Human Vehicle">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Human Vehicle
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/super-fun-race-3d" class="block">                                         
+        <img alt="Super Fun Race 3D" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/12ca5d53dc6747a7935477a69ed6f933-512x512.jpeg" title="Super Fun Race 3D">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Super Fun Race 3D
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/paint-house" class="block">                                         
+        <img alt="Paint House" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/c2af35c0543f4f27a1c3baf5d3f6bb77-512x384.jpeg" title="Paint House">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Paint House
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/bike-racing-3" class="block">                                         
+        <img alt="Bike Racing 3" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/063e84a26698466184c700952cb9263b-512x384.png" title="Bike Racing 3">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Bike Racing 3
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/imposter-3d" class="block">                                         
+        <img alt="Imposter 3D" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/eb84fbd926cd45538c434cf686b1c83d-512x384.jpeg" title="Imposter 3D">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Imposter 3D
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/archers.io" class="block">                                         
+        <img alt="Archers.io" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/5b7f9f197f234c31a178ec8c5cb3ef80-512x384.jpeg" title="Archers.io">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Archers.io
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/bouncy-race-3d" class="block">                                         
+        <img alt="Bouncy Race 3D" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/bae114873c094a7597b1b706d9a43c2e-512x384.jpeg" title="Bouncy Race 3D">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Bouncy Race 3D
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/draw-blocks-3d" class="block">                                         
+        <img alt="Draw Blocks 3D" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/353565207d9548c1a7c825ef80ea8ecf-512x512.jpeg" title="Draw Blocks 3D">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Draw Blocks 3D
+            </div>      
+        </div>    
+    </a>   
+</div>   
+        <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
+    <a href="/game/pregnant-rush" class="block">                                         
+        <img alt="Pregnant Rush" class="w-32 h-28 rounded-lg game-image" src="https://img.gamedistribution.com/4769cfd837bb4c2a822f71b2a1bcda36-512x512.jpeg" title="Pregnant Rush">                           
+        <div class="cursor-pointer absolute top-0 left-0 h-full w-full z-10 text-center flex flex-col items-end justify-end opacity-0 hover:opacity-100 duration-1000">
+            <div class="text-white text-sm w-full  bg-opacity-50 font-bold rounded-b-lg top-20 self-end place-self-end mb-1 py-1">
+                Pregnant Rush
+            </div>      
+        </div>    
+    </a>   
+</div>   
+                 
+        </div>  
+        <div class="pl-4 py-8 w-full flex self-center place-content-center" id="paginator">         
+             
+    
+<div 
+    class="flex flex-row items-stretch paginator " 
+    last-page="6" 
+    component="arcade:games" 
+    component-params=""
+    namespace="games.home"
+    init="1"
+    rows-selector="games_list"
+    current-page="2">
+    <div class="bg-blue-900 rounded-full p-1 self-center page-link prev-page " page="prev">       
+        <svg 
+    class="cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out text-gray-300 h-8 w-8" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="1" d="M15 19l-7-7 7-7" />
+</svg> 
+    </div>  
+     
+        <div 
+            class="self-center py-1 px-4 align-middle mx-1 text-center text-2xl text-bold text-white bg-blue-800 rounded-full" 
+            page="2" id="current_page">       
+            2      
+        </div>  
+        <div class="bg-blue-900 rounded-full p-1 self-center page-link next-page " page="next">
+        <svg 
+    class="cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out text-gray-300 h-8 w-8" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="1" d="M9 5l7 7-7 7" />
+</svg>            
+    </div>   
+</div>
+
+        </div>        
+    </div>                                      
+            </div>
+            <div class="py-2 px-2 flex-shrink-0 w-1/6 xs:hidden lg:block">       
+                
+                        
+                        <div class="py-2 flex flex-col items-stretch bg-gray-900 shadow-xl rounded-lg px-2 " >
+    <div class="panel-title text-lg font-thin text-yellow-500 bg-gray-800 rounded px-4 py-2 shadow-xl">
+        Popular Games
+    </div>
+        <div class="p-2 flex-grow">
+    <div class="tailwind-grid grid-cols-5 md:grid-cols-2 xl:grid-cols-4 sm:grid-cols-2 xs:grid-cols-2 gap-2">
+                   
+                                                                <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="Om Nom Run">     
+                <a class="" href="/game/om-nom-run">                                         
+                    <img class="w-full h-full game-image rounded" src="https://img.cdn.famobi.com/portal/html5games/images/tmp/OmNomRunTeaser.jpg" alt="Om Nom Run">                  
+                </a>                
+            </div>
+                   
+                                                                <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="Crowd Run 3D">     
+                <a class="" href="/game/crowd-run-3d">                                         
+                    <img class="w-full h-full game-image rounded" src="https://img.cdn.famobi.com/portal/html5games/images/tmp/_CrowdRun3dTeaser.jpg" alt="Crowd Run 3D">                  
+                </a>                
+            </div>
+                   
+                                                                <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="Moto X3M">     
+                <a class="" href="/game/moto-x3m">                                         
+                    <img class="w-full h-full game-image rounded" src="https://img.cdn.famobi.com/portal/html5games/images/tmp/MotoX3mTeaser.jpg" alt="Moto X3M">                  
+                </a>                
+            </div>
+                   
+                                                                <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="Stair Race 3D">     
+                <a class="" href="/game/stair-race-3d">                                         
+                    <img class="w-full h-full game-image rounded" src="https://img.cdn.famobi.com/portal/html5games/images/tmp/StairRace3dTeaser.jpg" alt="Stair Race 3D">                  
+                </a>                
+            </div>
+                   
+                                                                <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="3D Basketball">     
+                <a class="" href="/game/3d-basketball">                                         
+                    <img class="w-full h-full game-image rounded" src="https://img.cdn.famobi.com/portal/html5games/images/tmp/3dBasketballTeaser.jpg" alt="3D Basketball">                  
+                </a>                
+            </div>
+                   
+                                                                <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="Frankenstein Go">     
+                <a class="" href="/game/frankenstein-go">                                         
+                    <img class="w-full h-full game-image rounded" src="https://img.cdn.famobi.com/portal/html5games/images/tmp/FrankensteinGoTeaser.jpg" alt="Frankenstein Go">                  
+                </a>                
+            </div>
+                   
+                                                                <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="Biker Battle 3D">     
+                <a class="" href="/game/biker-battle-3d">                                         
+                    <img class="w-full h-full game-image rounded" src="https://img.gamedistribution.com/43c0c5e9f66f42989b61cb54e2a53d85-512x384.jpeg" alt="Biker Battle 3D">                  
+                </a>                
+            </div>
+                   
+                                                                <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="High Hills">     
+                <a class="" href="/game/high-hills">                                         
+                    <img class="w-full h-full game-image rounded" src="https://img.cdn.famobi.com/portal/html5games/images/tmp/HighHillsTeaser.jpg" alt="High Hills">                  
+                </a>                
+            </div>
+                   
+                                                                <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="Bubble Tower 3D">     
+                <a class="" href="/game/bubble-tower-3d">                                         
+                    <img class="w-full h-full game-image rounded" src="https://img.cdn.famobi.com/portal/html5games/images/tmp/BubbleTower3dTeaser.jpg" alt="Bubble Tower 3D">                  
+                </a>                
+            </div>
+                   
+                                                                <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="Cubito">     
+                <a class="" href="/game/cubito">                                         
+                    <img class="w-full h-full game-image rounded" src="https://img.cdn.famobi.com/portal/html5games/images/tmp/CubitoTeaser.jpg" alt="Cubito">                  
+                </a>                
+            </div>
+            </div>
+    </div>
+</div>              
+                <div class="py-2 flex flex-col items-stretch bg-gray-900 shadow-xl rounded-lg px-2 mt-4" >
+    <div class="panel-title text-lg font-thin text-yellow-500 bg-gray-800 rounded px-4 py-2 shadow-xl">
+        Ads
+    </div>
+        <div class="p-2 flex-grow">
+    
+    </div>
+</div>
+                                  
+                        
+<div class="py-2 flex flex-col items-stretch bg-gray-900 shadow-xl rounded-lg px-2 mt-4" >
+    <div class="panel-title text-lg font-thin text-yellow-500 bg-gray-800 rounded px-4 py-2 shadow-xl">
+        Tags
+    </div>
+        <div class="p-2 flex-grow">
+    <div class="flex flex-row items-start flex-wrap">
+                                                                <div class="mx-1 p-1 inline-block rounded-lg text-white border-2 border-red-900 border-solid mt-4">   
+                    <a class="uppercase text-gray-300 px-1 text-xs 
+                        cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out " href="/tags/.io/games">
+                        .io
+                    </a>
+                </div>
+                                                                            <div class="mx-1 p-1 inline-block rounded-lg text-white border-2 border-red-900 border-solid mt-4">   
+                    <a class="uppercase text-gray-300 px-1 text-xs 
+                        cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out " href="/tags/1/games">
+                        1
+                    </a>
+                </div>
+                                                                            <div class="mx-1 p-1 inline-block rounded-lg text-white border-2 border-red-900 border-solid mt-4">   
+                    <a class="uppercase text-gray-300 px-1 text-xs 
+                        cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out " href="/tags/1010/games">
+                        1010
+                    </a>
+                </div>
+                                                                            <div class="mx-1 p-1 inline-block rounded-lg text-white border-2 border-red-900 border-solid mt-4">   
+                    <a class="uppercase text-gray-300 px-1 text-xs 
+                        cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out " href="/tags/10x10/games">
+                        10x10
+                    </a>
+                </div>
+                                                                            <div class="mx-1 p-1 inline-block rounded-lg text-white border-2 border-red-900 border-solid mt-4">   
+                    <a class="uppercase text-gray-300 px-1 text-xs 
+                        cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out " href="/tags/1player/games">
+                        1player
+                    </a>
+                </div>
+                                                                            <div class="mx-1 p-1 inline-block rounded-lg text-white border-2 border-red-900 border-solid mt-4">   
+                    <a class="uppercase text-gray-300 px-1 text-xs 
+                        cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out " href="/tags/2/games">
+                        2
+                    </a>
+                </div>
+                                                                            <div class="mx-1 p-1 inline-block rounded-lg text-white border-2 border-red-900 border-solid mt-4">   
+                    <a class="uppercase text-gray-300 px-1 text-xs 
+                        cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out " href="/tags/2-players/games">
+                        2-players
+                    </a>
+                </div>
+                                                                            <div class="mx-1 p-1 inline-block rounded-lg text-white border-2 border-red-900 border-solid mt-4">   
+                    <a class="uppercase text-gray-300 px-1 text-xs 
+                        cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out " href="/tags/2020/games">
+                        2020
+                    </a>
+                </div>
+                                                                            <div class="mx-1 p-1 inline-block rounded-lg text-white border-2 border-red-900 border-solid mt-4">   
+                    <a class="uppercase text-gray-300 px-1 text-xs 
+                        cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out " href="/tags/2021/games">
+                        2021
+                    </a>
+                </div>
+                                                                            <div class="mx-1 p-1 inline-block rounded-lg text-white border-2 border-red-900 border-solid mt-4">   
+                    <a class="uppercase text-gray-300 px-1 text-xs 
+                        cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out " href="/tags/2022/games">
+                        2022
+                    </a>
+                </div>
+                                                                            <div class="mx-1 p-1 inline-block rounded-lg text-white border-2 border-red-900 border-solid mt-4">   
+                    <a class="uppercase text-gray-300 px-1 text-xs 
+                        cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out " href="/tags/2048/games">
+                        2048
+                    </a>
+                </div>
+                                                                            <div class="mx-1 p-1 inline-block rounded-lg text-white border-2 border-red-900 border-solid mt-4">   
+                    <a class="uppercase text-gray-300 px-1 text-xs 
+                        cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out " href="/tags/2d/games">
+                        2d
+                    </a>
+                </div>
+                                                                            <div class="mx-1 p-1 inline-block rounded-lg text-white border-2 border-red-900 border-solid mt-4">   
+                    <a class="uppercase text-gray-300 px-1 text-xs 
+                        cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out " href="/tags/2players/games">
+                        2players
+                    </a>
+                </div>
+                                                                            <div class="mx-1 p-1 inline-block rounded-lg text-white border-2 border-red-900 border-solid mt-4">   
+                    <a class="uppercase text-gray-300 px-1 text-xs 
+                        cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out " href="/tags/3d/games">
+                        3d
+                    </a>
+                </div>
+                                                                            <div class="mx-1 p-1 inline-block rounded-lg text-white border-2 border-red-900 border-solid mt-4">   
+                    <a class="uppercase text-gray-300 px-1 text-xs 
+                        cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out " href="/tags/3d-game/games">
+                        3d-game
+                    </a>
+                </div>
+                       
+    </div>
+    </div>
+</div>
+            </div>   
+        </div>          
+    </div>       
+    <footer class="footer text-gray-800 bg-gray-800 p-2 h-16 xl:16 lg:16 md:flex md:h-96 xs:hidden sm:hidden bg-gray-900 sm:items-start xs:items-start flex justify-start">
+    <div class="flex sm:flex-col xs:flex-col lg:flex-row flex-wrap p-2 w-4/6 text-gray-800 self-center items-start mx-auto">
+        <div class="flex flex-col flex-grow">
+        <div class="py-2 ml-8 flex items-center text-sm font-thin">
+            <svg 
+    class=" text-gray-400 h-4 w-4" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="1" 
+        d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6" />
+</svg> 
+            <a href="/" class="block pl-2 text-gray-400 hover:text-red-500 transition duration-1000 ease-in-out">               
+                Home
+            </a>
+        </div>       
+        <div class="py-2 ml-8 flex items-center text-sm font-thin">
+            <svg 
+    class=" text-gray-400 h-4 w-4" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="1" 
+        d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+</svg> 
+            <a href="/about" class="block pl-2 text-gray-400 hover:text-red-500 transition duration-1000 ease-in-out">              
+                About
+            </a> 
+        </div>  
+    </div>
+    <div class="flex flex-col flex-grow">
+        <div class="py-2 ml-8 flex items-center text-sm font-thin">
+            <svg 
+    class=" text-gray-400 h-4 w-4" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="1" 
+        d="M12 8v13m0-13V6a2 2 0 112 2h-2zm0 0V5.5A2.5 2.5 0 109.5 8H12zm-7 4h14M5 12a2 2 0 110-4h14a2 2 0 110 4M5 12v7a2 2 0 002 2h10a2 2 0 002-2v-7" />
+</svg> 
+            <a href="/featured-games" class="block pl-2 text-gray-400 hover:text-red-500 transition duration-1000 ease-in-out">              
+                Featured Games
+            </a> 
+        </div>    
+        <div class="py-2 ml-8 flex items-center text-sm font-thin">
+            <svg 
+    class=" text-gray-400 h-4 w-4" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="1" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+</svg> 
+            <a href="/popular-games" class="block pl-2 text-gray-400 hover:text-red-500 transition duration-1000 ease-in-out">              
+                Popular Games
+            </a> 
+        </div>   
+    </div>
+    <div class="flex flex-col flex-grow">
+        <div class="py-2 ml-8 flex items-center text-sm font-thin">
+            <svg 
+    class=" text-gray-400 h-4 w-4" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="1" 
+        d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10" />
+</svg> 
+            <a href="/premium-games" class="block pl-2 text-gray-400 hover:text-red-500 transition duration-1000 ease-in-out">              
+                Premium Games
+            </a> 
+        </div>    
+                <div class="py-2 ml-8 flex items-center text-sm font-thin">
+            <svg 
+    
+    class=" text-gray-400 h-4 w-4" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="1" 
+        d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+</svg>
+            <a href="/dosbox/games/list" class="block pl-2 text-gray-400 hover:text-red-500 transition duration-1000 ease-in-out">          
+                Dos games
+            </a>
+        </div>    
+        </div>
+    <div class="flex flex-col flex-grow">
+        <div class="py-2 ml-8 flex items-center text-sm font-thin">
+            <svg 
+    class=" text-gray-400 h-4 w-4" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="1" 
+        d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" />
+</svg> 
+            <a href="/privacy" class="block pl-2 text-gray-400 hover:text-red-500 transition duration-1000 ease-in-out">              
+                Privacy Policy
+            </a> 
+        </div>    
+        <div class="py-2 ml-8 flex items-center text-sm font-thin">
+            <img src="/arikaim/view/templates/arcade/images/arikaim-icon.png" width="14px" height="14px" alt="Arikaim CMS">
+            <a href="http://arikaim.com" class="block pl-2 text-gray-400 hover:text-red-500 transition duration-1000 ease-in-out" target="arikaim">                                          
+                Created with Arikaim CMS
+            </a>
+        </div>  
+    </div>
+    <div class="flex flex-col items-stretch flex-grow">
+        <div class="py-2 ml-8 flex items-center text-sm font-thin">
+            <svg 
+    class=" text-gray-400 h-4 w-4" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="1" 
+        d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
+</svg> 
+            <a href="/blog" class="block pl-2 text-gray-400 hover:text-red-500 transition duration-1000 ease-in-out">              
+                Blog
+            </a> 
+        </div>   
+        <div class="py-2 ml-8 flex items-center text-sm font-thin">    
+            <svg 
+    class=" text-gray-400 h-4 w-4" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">   
+    <path 
+        stroke-width="1" 
+        d="M11.88,9.14c1.28,0.06,1.61,1.15,1.63,1.66h1.79c-0.08-1.98-1.49-3.19-3.45-3.19C9.64,7.61,8,9,8,12.14 c0,1.94,0.93,4.24,3.84,4.24c2.22,0,3.41-1.65,3.44-2.95h-1.79c-0.03,0.59-0.45,1.38-1.63,1.44C10.55,14.83,10,13.81,10,12.14 C10,9.25,11.28,9.16,11.88,9.14z M12,2C6.48,2,2,6.48,2,12s4.48,10,10,10s10-4.48,10-10S17.52,2,12,2z M12,20c-4.41,0-8-3.59-8-8 s3.59-8,8-8s8,3.59,8,8S16.41,20,12,20z"/>        
+</svg>  
+            <div class="flex flex-row  text-gray-400 text-sm">
+        <div class="px-2">       
+        Copyright             
+    </div>
+    </div>
+        </div>     
+    </div>        
+    </div>    
+</footer><div class="ui toast inverted" id="cookie_policy_modal">
+    <div class="content">
+        <div class="ui header ">Cookie Policy</div>
+        <p class="mt-1 pt-1">We use cookies to ensure that we give you the best experience on our website.</p>
+        <div>Click <a href="" class="link text-blue-300 ml-1 mr-1">here</a> for more information.</div>
+    </div>
+    <div class="left basic actions">
+        <button class="ui positive button green">Accept</button>
+    </div>
+</div>
+                                          
+</div>    
+    </body>
+</html>
