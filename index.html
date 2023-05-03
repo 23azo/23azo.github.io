@@ -74,10 +74,24 @@
     </btn>   
     <div class="flex flex-row p-1 h-18 w-4/6 mx-auto items-center">                  
         <a class="navbar-title block site-title text-5xl antialiased pl-2" title="23Azo" href="/">
-            <img alt="23Azo.com" src="/images/logo_23azomini.png">
+            <img alt="23Azo.com" src="/images/logo.webp">
         </a>          
         <div class="flex-grow xs:flex-grow flex md:flex flex-row items-center pl-8 xs:hidden sm:hidden">
-        </div>  
+        <svg 
+    class="cursor-pointer text-gray-200 hover:text-yellow-500 transition duration-1000 ease-in-out text-green-500 h-7 w-7" 
+    xmlns="http://www.w3.org/2000/svg" 
+    fill="none" 
+    viewBox="0 0 24 24" 
+    stroke="currentColor">
+    <path 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        stroke-width="2" d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" />
+    </svg>  
+            <a class="pl-2 text-yellow-500 text-2xl cursor-pointer hover:text-red-500 transition duration-1000 ease-in-out navbar-item" href="/">               
+                23Azo.com
+            </a>
+        </div>   
         <div class="pt-2 pb-2 ml-8 self-end place-item-end md:hidden xs:hidden sm:hidden lg:block">
             <div class="form inline ui" id="search_panel">
     <div class="field flex flex-row items-center search-input" id="search_input">         
@@ -348,51 +362,42 @@
         Ads
     </div>
         <div class="p-2 flex-grow">
-    
     </div>
 </div>                
-                        <div class="py-2 flex flex-col items-stretch bg-gray-900 shadow-xl rounded-lg px-2 mt-4" >
+          <div class="py-2 flex flex-col items-stretch bg-gray-900 shadow-xl rounded-lg px-2 mt-4" >
     <div class="panel-title text-lg font-thin text-yellow-500 bg-gray-800 rounded px-4 py-2 shadow-xl">
         New Games
     </div>
         <div class="p-2 flex-grow">
-    <div class="tailwind-grid grid-cols-5 md:grid-cols-2 xl:grid-cols-4 sm:grid-cols-2 xs:grid-cols-2 gap-2">
-                   
+    <div class="tailwind-grid grid-cols-5 md:grid-cols-2 xl:grid-cols-4 sm:grid-cols-2 xs:grid-cols-2 gap-2">                
             <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="age of war">     
                 <a class="" href="/game/age-of-war">                                         
                     <img class="w-full h-full game-image rounded" src="/images/age-of-war.webp" alt="age of war">                  
                 </a>                
-            </div>
-                   
+            </div>     
                 <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="adventure drivers">     
                 <a class="" href="/game/adventure-drivers">                                         
                     <img class="w-full h-full game-image rounded" src="/images/adventure-drivers.webp" alt="adventure drivers">                  
                 </a>                
             </div>
-                   
-                <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="2d rocket league">     
+             <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="2d rocket league">     
                 <a class="" href="/game/2d-rocket-league">                                         
                     <img class="w-full h-full game-image rounded" src="/images/2d-rocket-league.webp" alt="2d rocket league">                  
                 </a>                
-            </div>
-                   
+            </div>     
                 <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="8 ball pool">     
                 <a class="" href="/game/8-ball-pool">                                         
                     <img class="w-full h-full game-image rounded" src="/images/8-ball-pool.webp" alt="8 ball pool">                  
                 </a>                
-            </div>
-                   
+        </div>             
             <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="99 ballso">     
                 <a class="" href="/game/99-balls">
                     <img class="w-full h-full game-image rounded" src="/images/99-balls.webp" alt="99 balls">                  
                 </a>                
-            </div>
-                    
+            </div>    
             </div>
     </div>
-</div>
-                  
-
+</div>                 
 <div class="align-top bg-gray-900 bg-gradient-to-r from-gray-900 shadow-xl rounded-lg p-2 mt-4">
     <div class="panel-title text-lg text-white font-thin tracking-widest bg-gradient-to-r from-red-500 via-red-600 to-red-300 p-2 rounded pl-4 shadow-xl">       
         Premium Games
@@ -406,9 +411,7 @@
                     <h1 class="page-title text-lg font-thin tracking-widest text-yellow-500">Games</h1>
                 </div>
             <div class="h-full">
-        <div class="tailwind-grid grid-flow-row justify-center justify-items-center grid-cols-2 xl:row-gap-6 row-gap-2 gap-2 xl:gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-6 2xl:grid-cols-8" id="games_list">                 
-                           
-   
+        <div class="tailwind-grid grid-flow-row justify-center justify-items-center grid-cols-2 xl:row-gap-6 row-gap-2 gap-2 xl:gap-4 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 xl:grid-cols-6 2xl:grid-cols-8" id="games_list">                                        
 <!-- list games home-->
     <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
     <a href="/game/slope" class="block">                                         
@@ -430,7 +433,6 @@
         </div>    
     </a>   
     </div>
-
     <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
     <a href="/game/2d-rocket-league" class="block">                                         
         <img alt="2d-rocket-league" class="w-32 h-28 rounded-lg game-image" src="/images/2d-rocket-league.webp" title="2d-rocket-league">                           
@@ -441,7 +443,6 @@
         </div>    
     </a>   
     </div>
-
     <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
     <a href="/game/8-ball-pool" class="block">                                         
         <img alt="8-ball-pool" class="w-32 h-28 rounded-lg game-image" src="/images/8-ball-pool.webp" title="8-ball-pool">                           
@@ -452,7 +453,6 @@
         </div>    
     </a>   
     </div>
-
     <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
     <a href="/game/99-balls" class="block">                                         
         <img alt="99-balls" class="w-32 h-28 rounded-lg game-image" src="/images/99-balls.webp" title="99-balls">                           
@@ -463,7 +463,6 @@
         </div>    
     </a>   
     </div>
-
     <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
     <a href="/game/awesome-tanks" class="block">                                         
         <img alt="awesome-tanks" class="w-32 h-28 rounded-lg game-image" src="/images/awesome-tanks.webp" title="awesome-tanks">                        
@@ -484,7 +483,6 @@
         </div>    
     </a>   
     </div>
-
     <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
     <a href="/game/awesome-tanks-2" class="block">                                         
         <img alt="awesome-tanks-2" class="w-32 h-28 rounded-lg game-image" src="/images/awesome-tanks-2.webp" title="awesome-tanks-2">                        
@@ -495,7 +493,6 @@
         </div>    
     </a>   
     </div>
-
     <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
     <a href="/game/venge" class="block">                                         
         <img alt="venge" class="w-32 h-28 rounded-lg game-image" src="/images/venge.webp" title="venge">                        
@@ -516,7 +513,6 @@
         </div>    
     </a>   
     </div>
-
     <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
     <a href="/game/vex-4" class="block">                                         
         <img alt="vex-4" class="w-32 h-28 rounded-lg game-image" src="/images/vex-4.webp" title="vex-4">                        
@@ -527,7 +523,6 @@
         </div>    
     </a>   
     </div>
-
     <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
     <a href="/game/vex-5" class="block">                                         
         <img alt="vex-5" class="w-32 h-28 rounded-lg game-image" src="/images/vex-5.webp" title="vex-5">                        
@@ -762,7 +757,6 @@
         </div>    
     </a>   
     </div>
-
     <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
     <a href="/game/parking-fury" class="block">                                  
         <img alt="parking-fury" class="w-32 h-28 rounded-lg game-image" src="/images/parking-fury.webp" title="parking-fury">                        
@@ -783,7 +777,6 @@
         </div>    
     </a>   
     </div>
-
     <div class="hover:shadow-xl cursor-pointer rounded game-card text-center relative duration-1000 w-32 h-28">     
     <a href="/game/mini-royale" class="block">                                  
         <img alt="mini-royale" class="w-32 h-28 rounded-lg game-image" src="/images/mini-royale.webp" title="mini-royale">                        
@@ -824,12 +817,8 @@
         </div>    
     </a>   
     </div>
-
 <!-- end list games home-->   
-
-
 <!-- PT -->
-
     </div>  
 <div class="pl-4 py-8 w-full flex self-center place-content-center" id="paginator">         
 <div 
@@ -854,7 +843,6 @@
         stroke-width="1" d="M15 19l-7-7 7-7" />
 </svg> 
     </div>  
-     
         <div 
             class="self-center py-1 px-4 align-middle mx-1 text-center text-2xl text-bold text-white bg-blue-800 rounded-full" 
             page="2" id="current_page">       
@@ -878,7 +866,6 @@
     </div>                                      
     </div>
 <!-- end PT -->
-
 <!-- sidebar_right -->
     <div class="py-2 px-2 flex-shrink-0 w-1/6 xs:hidden lg:block">                     
     <div class="py-2 flex flex-col items-stretch bg-gray-900 shadow-xl rounded-lg px-2 " >
@@ -892,25 +879,21 @@
                     <img class="w-full h-full game-image rounded" src="/images/parking-fury.webp" alt="Parking Fury">                  
                 </a>                
             </div>
-                   
              <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="parking fury 2">     
                 <a class="" href="/game/parking-fury-2">                                         
                     <img class="w-full h-full game-image rounded" src="/images/parking-fury-2.webp" alt="parking fury 2">                  
                 </a>                
             </div>
-                   
             <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="Moto X3M">     
                 <a class="" href="/game/mini-royale">                                         
                     <img class="w-full h-full game-image rounded" src="/images/mini-royale.webp" alt="mini royale">                  
                 </a>                
             </div>
-                   
             <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="Stair Race 3D">     
                 <a class="" href="/game/super-smash-bros">                                         
                     <img class="w-full h-full game-image rounded" src="/images/super-smash-bros.webp" alt="super smash bros">                  
                 </a>                
             </div>
-                   
             <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="3D Basketball">     
                 <a class="" href="/game/idle-island">                                         
                     <img class="w-full h-full game-image rounded" src="/images/idle-island.webp" alt="Idle Island">                  
@@ -922,14 +905,11 @@
                     <img class="w-full h-full game-image rounded" src="/images/cut-the-rope.webp" alt="Cut The Rope">                  
                 </a>                
             </div>
-                   
             <div class="w-14 h-14 rounded-lg borderless game-card shadow" data-tooltip="Biker Battle 3D">     
                 <a class="" href="/game/age-of-war">                                         
                     <img class="w-full h-full game-image rounded" src="/images/age-of-war.webp" alt="Age Of War">                  
                 </a>                
-            </div>
-                   
-                                
+            </div>                            
             </div>
     </div>
 </div>              
@@ -937,14 +917,12 @@
     <div class="panel-title text-lg font-thin text-yellow-500 bg-gray-800 rounded px-4 py-2 shadow-xl">
         Ads
     </div>
-        <div class="p-2 flex-grow">
-    
+        <div class="p-2 flex-grow">    
     </div>
 </div>                      
         </div>   
     </div>          
 </div> 
-
 <!-- end sidebar_right --> 
 
 <!-- footer -->     
@@ -1076,11 +1054,8 @@
                 Privacy Policy
             </a> 
         </div>    
-          
-    </div>
-    <div class="flex flex-col items-stretch flex-grow">
-        <div class="py-2 ml-8 flex items-center text-sm font-thin">
-            <svg 
+          <div class="py-2 ml-8 flex items-center text-sm font-thin">
+    <svg 
     class=" text-gray-400 h-4 w-4" 
     xmlns="http://www.w3.org/2000/svg" 
     fill="none" 
@@ -1091,11 +1066,13 @@
         stroke-linejoin="round" 
         stroke-width="1" 
         d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z" />
-</svg> 
+    </svg> 
             <a href="/blog" class="block pl-2 text-gray-400 hover:text-red-500 transition duration-1000 ease-in-out">              
                 Blog
             </a> 
         </div>   
+    </div>
+    <div class="flex flex-col items-stretch flex-grow">
         <div class="py-2 ml-8 flex items-center text-sm font-thin">    
             <svg 
     class=" text-gray-400 h-4 w-4" 
